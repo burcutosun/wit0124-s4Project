@@ -130,8 +130,8 @@ header nav {
 /*main*/
 
 main {
-  height: 565px;
-  width: 1069px;
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -152,6 +152,7 @@ main {
 
 .content {
   max-width: 600px;
+  margin: 8rem;
   padding: 2rem;
   position: absolute;
 }
@@ -181,8 +182,8 @@ main {
 
 /*section*/
 
-.section {
-  margin: 1rem;
+section {
+  margin: 0 5.5rem;
 }
 
 .section-header {
